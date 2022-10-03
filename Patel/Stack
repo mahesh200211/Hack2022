@@ -1,0 +1,1 @@
+In order to create a stack, we must import java.util.stack package and use the Stack() constructor of this class. The below example creates an empty Stack.
