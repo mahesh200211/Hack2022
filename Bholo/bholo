@@ -1,0 +1,23 @@
+first get rid of odd numbers as much as we can.
+
+example:
+
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+
+(15,1) => removal of 14
+
+(13,3) => removal of 10
+
+(11,5) => removal of 6
+
+(9,7) => removal of 2
+
+what's left 4 8 12 16
+
+and upon dividing by 4 it will be again 1 2 3 4
+
+i think you can now see the obvious recursion
+
+we need to make sure there are even count of odd numbers while performing the removal otherwise we will not get a good pattern like 4,8,12,16
+
+If there is odd count of odd numbers remove the last odd number
